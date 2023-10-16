@@ -7,5 +7,5 @@ app.use('/', (req, res, next) => {
 });
 app.listen(port);
 
-export default app;
+module.exports(app);
 
